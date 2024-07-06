@@ -12,6 +12,9 @@ from nltk.tokenize import TweetTokenizer
 from dotenv import load_dotenv
 import bcrypt
 
+import nltk
+nltk.download('stopwords')
+
 # Load environment variables from .env file
 load_dotenv()
 
